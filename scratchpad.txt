@@ -1,0 +1,15 @@
+Public IPv4 address
+52.9.152.94
+
+workshop2 uri
+886413532867.dkr.ecr.us-west-1.amazonaws.com/workshop2
+
+push command of workshop2 ecr
+aws ecr get-login-password --region us-west-1 | docker login --username AWS --password-stdin 886413532867.dkr.ecr.us-west-1.amazonaws.com
+
+db
+Endpoint
+nctutorials.cmaqxsqbk2co.us-west-1.rds.amazonaws.com
+
+Port
+5432
